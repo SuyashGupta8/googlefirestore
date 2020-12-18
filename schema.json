@@ -1,0 +1,50 @@
+{
+    "sentmessage" : {
+    "notificationType": {"type": "string"},
+        "notificationMethod": {"type": "string"},
+        "patientEmailId": {"type": "string"},
+        "patientMobileNo":{"type": "string"},
+        "patientId":{"type": "string"},
+        "userId":{"type": "string"},
+        "batchId":{"type": "string"},
+        "groupNotificationId":{"type": "string"},
+        "parentGroupId":{"type": "string"},
+        "prescriptionNumber":{"type": "string"},
+        "storeId":{"type": "string"},
+        "bannerId": {"type": "string"},
+        "locale": {"type": "string"}, 
+        "notificationSentAt":{"type": "string"}
+},
+   "failedMessage": {
+    "notificationType": {"type": "string"},
+    "notificationMethod":{"type": "string"},
+    "patientEmailId": {"type": "string"}, 
+    "patientMobileNo": {"type": "string"},
+    "patientId":{"type": "string"},
+    "userId": {"type": "string"},
+    "batchId":{"type": "string"},
+    "groupNotificationId":{"type": "string"},
+    "parentGroupId":{"type": "string"},
+    "prescriptionNumber": {"type": "string"},
+    "storeId": {"type": "string"},
+    "Error Reason": {"type": "string"},
+    "bannerId":{"type": "string"},
+    "locale": {"type": "string"}
+    "saveNotification": true,
+    // if email
+    // Notification Related Fields
+    "from": "drx-notifications@loblaw.ca",
+    "subject": "Confirm Email Change",
+    // Template specific data
+    "templateId":"d-aahsdhjjhd"//optional
+    "dynamicTemplateData": {
+        "dynamicData1": " This is sample message 1",
+        "dynamicData2": " This is sample message 2",
+        "dynamicData3": " This is sample message 3",
+        ...
+    }
+    // if sms
+    "from": "9999999999",
+    "body": " This is sample message content",
+   }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "firestore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^4.8.0",
+    "@google-cloud/storage": "^5.7.0",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.6"
+  }
+}
